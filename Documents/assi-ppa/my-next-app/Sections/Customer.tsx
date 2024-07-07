@@ -9,7 +9,7 @@ export default function Customer() {
 
     return (
         <>
-            <div className={`flex flex-row p-6  max-md:flex-col ${theme?'bg-bla-100':'bg-white'}`}>
+            <div className={`flex flex-row p-6  max-md:flex-col ${theme?'bg-white':'bg-white'}`}>
                 <div className='w-2/5 flex flex-col items-center justify-center pl-14 max-md:w-full max-md:pl-0'>
                     <Image src="/images/customer.jpeg" alt="Image" height={200} width={200} className='w-64 h-72 rounded-md' />
                 </div>

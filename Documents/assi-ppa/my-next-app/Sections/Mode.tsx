@@ -9,7 +9,7 @@ export function ThemeSwitcher() {
         <div className="fixed top-52 right-0 max-md:top-72 max-md:right-0 max-md:w-auto">
             <div className="border-5 flex flex-row justify-end">
                 <div
-                    className="bg-red-500 p-5 rounded-s-full cursor-pointer max-md:hidden"
+                    className="bg-green-600 p-5 rounded-s-full cursor-pointer max-md:hidden"
                     onClick={() => setTheme(!theme)}
                 >
                     Switch Theme
