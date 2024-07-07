@@ -7,7 +7,7 @@ export default function Updates() {
     const {theme}=useAppContext()
     return (
         <>
-            <div className={`flex flex-col justify-center items-center p-8 pb-32 ${!theme?'bg-gray-900 text-cyan-300':''}`}>
+            <div className={`flex flex-col justify-center items-center p-8 pb-32 ${!theme?'bg-white text-green-600':''}`}>
                 <div className='text-3xl text-center font-semibold mb-4 '>
                     Caring is the new marketing
                 </div>
